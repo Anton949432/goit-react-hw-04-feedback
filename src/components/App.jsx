@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { useState, useEffect } from 'react';
 import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
