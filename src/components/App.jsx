@@ -15,10 +15,6 @@ const App = () => {
   const total = good + neutral + bad;
   const positivePercentage = total === 0 ? 0 : Math.round((good / total) * 100);
 
-  useEffect(() => {
-    document.title = `Feedback App - Total: ${total}`;
-  }, [total]);
-
   return (
     <div>
       <Section title="Please leave feedback">
